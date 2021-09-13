@@ -6,11 +6,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnGo"
+        android:id="@+id/btnEvent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="跳转页面" />
+        android:text="发送事件" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下个页面" />
 
 </LinearLayout>
